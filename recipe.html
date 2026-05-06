@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рецепт</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+        <div class="header-inner">
+            <div class="start">
+                <!--
+                <img src="goodname.png" style="width:86px; height:57px">
+                -->
+                <a href="index.html">
+                    <img src="goodname.png" style="width:86px; height:57px">
+                </a>
+                
+            </div>
+            <div class="search-container">
+                <input placeholder="Поиск по рецептам" type="text" style="width: 487px;height: 52px; font-size: 18px;" class="search-input">
+                <a class="header-link" href="#"><img src="spisok.png"></a>
+            </div>
+            <div class="second">
+                <div class="bottom">
+                  Добавить рецепт
+                </div>
+                <a class="header-link" href="#"><img src="yarlik.png"></a>
+                <a class="header-link" href="#"><img src="people.png"></a>
+            </div>
+        </div>    
+      </header>
+
+<main>
+
+    <div class="card" style="margin: 50px auto; width: 1000px;">
+        <img id="recipe_img" class="card_img">
+
+        <p id="recipe_name" class="names"></p>
+
+        <p id="recipe_ingredients" class="card_txt"></p>
+
+        <p id="recipe_text" class="card_txt"></p>
+    </div>
+
+</main>
+
+<footer>
+    <div class="footer-inner">
+        <img src="goodname.png" style="width:86px; height:57px">
+    </div>
+</footer>
+
+<script src="recipe.js"></script>
+
+</body>
+</html>
